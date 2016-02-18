@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4139" started-at="2016-02-01T19:55:36Z" finished-at="2016-02-01T19:55:41Z">
+    <groups>
+      <group name="AccountingDaoTest">
+        <method signature="AccountingDaoTest.checkAccDepartment()[pri:0, instance:springmvc.web.model.dao.AccountingDaoTest@48cb14ba]" name="checkAccDepartment" class="springmvc.web.model.dao.AccountingDaoTest"/>
+      </group> <!-- AccountingDaoTest -->
+    </groups>
+    <test name="Default test" duration-ms="4139" started-at="2016-02-01T19:55:36Z" finished-at="2016-02-01T19:55:41Z">
+      <class name="springmvc.web.model.dao.AccountingDaoTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:springmvc.web.model.dao.AccountingDaoTest@48cb14ba]" test-instance-name="" name="springTestContextBeforeTestClass" is-config="true" duration-ms="34" started-at="2016-02-01T11:55:36Z" finished-at="2016-02-01T11:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method name="springTestContextPrepareTestInstance" test-instance-name="" signature="springTestContextPrepareTestInstance()[pri:0, instance:springmvc.web.model.dao.AccountingDaoTest@48cb14ba]" is-config="true" status="PASS" duration-ms="3610" finished-at="2016-02-01T11:55:40Z" started-at="2016-02-01T11:55:36Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:springmvc.web.model.dao.AccountingDaoTest@48cb14ba]" test-instance-name="" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="101" started-at="2016-02-01T11:55:40Z" finished-at="2016-02-01T11:55:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springmvc.web.model.dao.AccountingDaoTest.checkAccDepartment()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="checkAccDepartment()[pri:0, instance:springmvc.web.model.dao.AccountingDaoTest@48cb14ba]" test-instance-name="" name="checkAccDepartment" duration-ms="352" started-at="2016-02-01T11:55:40Z" finished-at="2016-02-01T11:55:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAccDepartment -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:springmvc.web.model.dao.AccountingDaoTest@48cb14ba]" test-instance-name="" name="springTestContextAfterTestMethod" is-config="true" duration-ms="11" started-at="2016-02-01T11:55:41Z" finished-at="2016-02-01T11:55:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void springmvc.web.model.dao.AccountingDaoTest.checkAccDepartment()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:springmvc.web.model.dao.AccountingDaoTest@48cb14ba]" test-instance-name="" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2016-02-01T11:55:41Z" finished-at="2016-02-01T11:55:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- springmvc.web.model.dao.AccountingDaoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
