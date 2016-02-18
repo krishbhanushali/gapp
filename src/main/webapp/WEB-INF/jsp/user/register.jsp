@@ -22,7 +22,7 @@
 <title>Registration</title>
 </head>
 	<body>
-		
+		<h1>This is registration </h1>
 		<div class='btn-group btn-group-justified'>
 			<div class='btn-group'><a href="../home.html">Back</a></div>
 			<div class='btn-group'>
