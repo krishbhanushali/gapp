@@ -25,6 +25,7 @@
 		<div class="col-md-offset-6 col-md-6" >
 			<h3>GAPP</h3>
 		</div>
+		hahahahahahahaha
 		<c:if test="${error!=null }">
 			<div class="alert alert-warning col-md-offset-4 col-md-8">
 				<strong>Error! </strong>${error }
