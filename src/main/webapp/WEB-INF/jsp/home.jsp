@@ -118,6 +118,39 @@
 </head>
 <body>
 	<div class="container">
+<<<<<<< HEAD
+=======
+		<div class="col-md-offset-6 col-md-6" >
+			<h3>GAPP</h3>
+		</div>
+		hahahahahahahaha
+		<c:if test="${error!=null }">
+			<div class="alert alert-warning col-md-offset-4 col-md-8">
+				<strong>Error! </strong>${error }
+			</div>
+		</c:if>
+		<form class="form-horizontal" role="form" action="home.html" method="POST">
+			<div class="form-group">
+				<label class="control-label col-md-4" for="emailID">Email ID :</label>
+				<div class="col-md-8">
+					<input type="email" class="form-control" name="emailID" placeholder="Enter email" required> 
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label col-md-4" for="password">Password :</label>
+				<div class="col-md-8">
+					<input type="password" class="form-control" name="password" placeholder="Enter password" required> 
+				</div>
+			</div>
+			
+			 <div class="form-group">        
+			      <div class="col-md-offset-6 col-md-6">
+			        <button type="submit" class="btn btn-default">Submit</button>
+			      </div>
+		    </div>
+		</form>
+>>>>>>> e124028ad8f4f43b28a92d3575f417d3a7050d51
 		
 		 <div class="row">
 		 	<hr class="prettyline">
