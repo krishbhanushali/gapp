@@ -5,32 +5,41 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel='stylesheet' href='../webjars/bootstrap/3.2.0/css/bootstrap.min.css'></link>
+	<script type="text/javascript" src="../webjars/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../webjars/jquery/2.1.1/jquery.min.js"></script>
   <style>
 		.alert
 		{
 			padding:10px;
 			
 		}
-		body
+		.panel
 		{
-			background-color: #D9D9D9;
+			margin-bottom:40px !important;
+		}
+		.assignBorder
+		{
+		   top: 0px;
+		   margin:0px;  
+		   padding: 0px 2px 2px 3px;    
+		   border-width: 2px;
+		   border-bottom: 2px #e9e9e9 solid;
+		   width:75%;
 		}
   </style>
-  
-<title>Student</title>
+<title>Student ${user.firstName }</title>
 </head>
 <body>
+	<%@include file="../layouts/header.jsp" %>
 	<div class="container">
-		<div class='btn-group btn-group-justified'>
-			<div class="btn-group"></div>
-			<div class='btn-group'>
-				<h3>Student ${user.firstName}!</h3>
+		<div class="row">	
+			<div class="col-sm-9 assignBorder">
+				
+				<h3>Hello, ${user.firstName}!</h3>
 			</div>
-			<div class='btn-group'><a href="../logout.html">Log Out</a></div>
 		</div>
 	</div>
+	<%@include file="../layouts/footer.jsp" %>
 </body>
 </html>

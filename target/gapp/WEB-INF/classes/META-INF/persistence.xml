@@ -12,7 +12,7 @@
         	<property name="javax.persistence.jdbc.user" value="gapp"></property>
         	<property name="javax.persistence.jdbc.password" value="abcd"></property>
             <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
-            <property name="hiberate.show_sql" value="false"></property>
+            <property name="hiberate.show_sql" value="true"></property>
         </properties>
     </persistence-unit>
 

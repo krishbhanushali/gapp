@@ -66,6 +66,7 @@
 								<option value="">Select type...</option>
 								<option value="string">String</option>
 								<option value="integer">Integer</option>
+								<option value="file">File</option>
 							</select>
 						</div>
 					</div>
