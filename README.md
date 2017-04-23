@@ -19,4 +19,7 @@ Let me give you a brief overview of how each role uses the system.
     4. Add Academic Records (GRE, TOEFL, GPA, Transcripts etc)
     5. Fill out Additional requirements if any.
 ## 3. Staff
+  * Staff can view all of the applications applied by the students.
+  * Rank the applications according to their data provided.
+  * Send an admit or reject based on the merit.
 
