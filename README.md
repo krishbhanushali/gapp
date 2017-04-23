@@ -6,4 +6,9 @@ The Web Portal has 3 user roles: -
 3. Staff
 
 Let me give you a brief overview of how each role uses the system.
-## ** 1. Admin **
+## 1. Admin
+  * Create/Update/Delete/View Departments.
+  * Create Programs for a particular Department and also Deletion of Programs.
+  * Create Additional requirement for any department for the students to apply.
+## 2. Student
+  * Student can view the previous saved/submitted applications. If the applications are saved and non-submitted, student can update the application too.
