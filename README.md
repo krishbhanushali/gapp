@@ -6,6 +6,4 @@ The Web Portal has 3 user roles: -
 3. Staff
 
 Let me give you a brief overview of how each role uses the system.
-**1.Admin**
-The Admin can do the following tasks :-
-..* 
+## ** 1. Admin **
